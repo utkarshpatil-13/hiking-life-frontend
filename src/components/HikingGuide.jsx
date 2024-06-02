@@ -19,7 +19,7 @@ const HikingGuide = () => {
             
         </div> */}
 
-        <div className="relative h-[80vh] max-md:h-[70%] flex items-center justify-start my-20">
+        <div className="relative h-[80vh] max-md:h-[70%] flex items-center justify-start my-20 max-md:py-10">
             <div className={`absolute inset-0 bg-cover bg-center`} style={{ backgroundImage: `url(${image1})`}}></div>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className='relative z-10 flex flex-col justify-center items-center gap-7 mx-10 h-full text-white mt-10'>
@@ -27,7 +27,7 @@ const HikingGuide = () => {
                 {/* <p className='text-2xl font-semibold'>THIS HIKE IS THE NEXT BEST OPTION</p>
                 <p className='text-2xl'>Lorem, ipsum.</p> */}
                 <img src={image2} className='w-20 h-20' alt="" />
-                <button className='p-2 border-2 border-[#2fc8e1] w-[20vw] bg-transparent text-xl font-semibold'>See more</button>
+                <button className='p-2 border-2 border-[#2fc8e1] w-[20vw] bg-transparent text-xl font-semibold max-md:w-[60vw]'>See more</button>
                 </div>
         </div>
     </>
