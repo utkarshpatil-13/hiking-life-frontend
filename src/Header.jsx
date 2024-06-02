@@ -14,9 +14,9 @@ export default function Header(){
                     <ul className="flex gap-16 font-semibold text-lg max-md:gap-12">
                         <li>Home</li>
                         <li>Class</li>
-                        <li className="text-black">Promo</li>
+                        <li className="max-md:text-black">Promo</li>
                         <li className="max-md:hidden">Online Class</li>
-                        <li className="text-black">Contact</li>
+                        <li className="max-md:text-black">Contact</li>
                     </ul>
                 </div>
             </header>
