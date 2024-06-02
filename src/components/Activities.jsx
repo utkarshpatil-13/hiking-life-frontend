@@ -18,11 +18,11 @@ const Activities = () => {
                 <img src={image5} className='absolute mx-auto right-0 bottom-[-2vw]' alt="" />
                 <img src={image6} className='absolute mx-auto right-0 bottom-0' alt="" /> 
             </div>
-            <div className='relative z-10 text-white mx-10 flex gap-5 mt-20'>
-                <div className='flex flex-col justify-center gap-10 text-white w-[40vw] mt-20'>
-                    <h2 className='text-5xl font-bold font-handwritten text-[#fd5f00]'>WALKING IN NATURE AS A RECREATIONAL ACTIVITY</h2>
-                    <h3 className='text-2xl text-slate-500 w-[15vw]'>.ACTIVITIES</h3>
-                    <p className='text-xl w-[20vw]'>Lorem ipsum dolor sit amet consectetur adip.</p>
+            <div className='relative z-10 text-white mx-10 flex gap-5 mt-20 max-md:flex-col'>
+                <div className='flex flex-col justify-center gap-10 text-white w-[40vw] mt-20 max-md:w-full'>
+                    <h2 className='text-5xl font-bold font-handwritten text-[#fd5f00] max-md:leading-tight max-md:text-center max-md:text-white'>WALKING IN NATURE AS A <span className='max-md:text-black md:hidden'>RECREATIONAL ACTIVITY</span><span className='max-md:hidden'>RECREATIONAL ACTIVITY</span></h2>
+                    <h3 className='text-2xl text-slate-500 w-[15vw] max-md:text-black max-md:text-4xl max-md:text-semibold max-md:text-center max-md:w-full'>.ACTIVITIES</h3>
+                    <p className='text-xl w-[20vw] max-md:w-full max-md:text-center'>Lorem ipsum dolor sit amet consectetur adip.</p>
                 </div>
             </div>
         </div>
